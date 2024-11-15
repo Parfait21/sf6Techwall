@@ -1,5 +1,7 @@
 <?php
 
+// Point d'entré de l'application qui déclance le noyau de Symfony.
+
 use App\Kernel;
 
 require_once dirname(__DIR__).'/vendor/autoload_runtime.php';
